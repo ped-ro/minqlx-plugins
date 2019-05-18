@@ -82,7 +82,7 @@ exec "$qPathToStartScript" \
     +set qlx_redisDatabase "0"
 elif [ $1 -eq 1 ];
 then
-# starting eBattlegrounds server...
+# starting duel server...
 echo "Starting DUEL server1..."
 exec "$qPathToStartScript" \
     +set net_strict 1 \
@@ -180,8 +180,7 @@ exec "$qPathToStartScript" \
 elif [ $1 -eq 3 ]
 then
 # starting INSTA server...
-echo "Starting INSTA server 1..."
-echo "Starting clan arena server 1"
+echo "Starting clan arena server 2"
 exec "$qPathToStartScript" \
     +set net_strict 1 \
     +set net_port 27964 \
