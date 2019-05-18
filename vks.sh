@@ -179,7 +179,7 @@ exec "$qPathToStartScript" \
     +set qlx_redisDatabase "1"
 elif [ $1 -eq 3 ]
 then
-# starting INSTA server...
+# starting ca2 server...
 echo "Starting clan arena server 2"
 exec "$qPathToStartScript" \
     +set net_strict 1 \
